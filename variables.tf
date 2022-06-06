@@ -1,9 +1,10 @@
 
-
+variable minikube_host {
+  type        = string
+}
 variable context {
   type        = string
-  default     = "minikube"
-  
+  default     = "minikube" 
 }
 
 

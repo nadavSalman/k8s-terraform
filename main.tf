@@ -1,6 +1,6 @@
 provider "kubernetes" {
-  config_path    = "minikube-config.yaml"
-  host = "https://127.0.0.1:53505" # kubectl proxy --port=33458 --address='0.0.0.0' --accept-hosts='^.*' &
+  config_path    = "/Users/nsalman/dev-me/k8s-terraform/minikube-config.yaml"
+  host = var.minikube_host # kubectl proxy --port=33458 --address='0.0.0.0' --accept-hosts='^.*' &
 
 }
 
